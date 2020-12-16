@@ -509,7 +509,9 @@ class CVFileUpload extends CVText
 		header( "cache-Control: post-check=0, pre-check=0", false );
 		header( "Pragma: no-cache" );
 		header( "Content-Type: image/jpg" );
-		header( "Content-Length: $Size" );
+		//header( "Content-Length: $Size" );
+		ob_clean();   // discard any data in the output buffer (if possible)
+		flush();      // flush headers (if possible)
 		readfile( $path );
 		exit;
 	}
