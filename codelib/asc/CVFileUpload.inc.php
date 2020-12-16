@@ -508,11 +508,12 @@ class CVFileUpload extends CVText
 		header( "cache-Control: no-store, no-cache, must-revalidate" );
 		header( "cache-Control: post-check=0, pre-check=0", false );
 		header( "Pragma: no-cache" );
-		//header( "Content-Type: image/jpg" );
+		header( "Content-Type: image/jpg" );
 		header( "Content-Length: $Size" );
 
 		//-- and finally the image itself
 		readfile( $path );
+		exit;
 	}
 }
 
