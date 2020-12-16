@@ -3,12 +3,12 @@
 //----------------------------------------------------------------
 // System Platform
 //----------------------------------------------------------------
-require( dirname(__FILE__). "/../codelib/sys/common.inc.php" );
+require("codelib/sys/common.inc.php" );
 
 //----------------------------------------------------------------
 // Application Shared Code
 //----------------------------------------------------------------
-require( dirname(__FILE__). "/../codelib/asc/common.inc.php" );
+require("codelib/asc/common.inc.php" );
 
 //-----------------------------------------------------------------------
 // [END] StartUp Code
