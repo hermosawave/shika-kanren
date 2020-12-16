@@ -1,5 +1,5 @@
 <?php
-	error_reporting( E_ALL );
+	// error_reporting( E_ALL );
 	require( 'common.inc.php' );
 	if ( isset( $_GET[ 'cn' ] ) )
 	{
@@ -13,5 +13,3 @@
 	}
 
 return "OBJECT ERROR";
-
-?>
