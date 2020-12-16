@@ -510,7 +510,6 @@ class CVFileUpload extends CVText
 		header( "Pragma: no-cache" );
 		header( "Content-Type: image/jpg" );
 		header( "Content-Length: $Size" );
-
 		//-- and finally the image itself
 		readfile( $path );
 		exit;
