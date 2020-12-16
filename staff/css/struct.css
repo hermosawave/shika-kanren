@@ -1,0 +1,21 @@
+
+#container {
+	width:100%;
+	margin:0 auto;
+}
+
+#main_div {
+	width:98%;
+	margin:0 auto;
+}
+
+#clearzone {
+	clear:both;
+}
+
+.copyright {
+	color : #808080;
+	font-size : 12px;
+	margin-top : 10px;
+}
+

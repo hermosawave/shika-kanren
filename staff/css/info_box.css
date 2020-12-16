@@ -1,0 +1,11 @@
+
+.info_msg {
+	color: #008000;
+	font-weight: bold;
+}
+
+.err_msg {
+	color: #FF0000;
+	font-weight: bold;
+}
+

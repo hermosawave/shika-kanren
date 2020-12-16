@@ -1,0 +1,10 @@
+
+a.pageno {
+	color: #808080;
+}
+
+span.pageno_sel {
+	color: #ff0000;
+	font-weight: bold;
+}
+
