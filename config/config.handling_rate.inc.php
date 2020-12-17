@@ -10,7 +10,7 @@
 */
 
 define( 'MINIMUM_TOTAL_AMOUNT', 100 );
-define( 'HANDLING_RATE', 15 );
-define( 'MINIMUM_HANDLING_FEE', 15 );
+define( 'HANDLING_RATE', 18 );
+define( 'MINIMUM_HANDLING_FEE', 18 );
 
 ?>

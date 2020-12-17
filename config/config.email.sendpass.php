@@ -34,7 +34,7 @@ Hostname=localhost
 // (e.g.) sender@mydomain.com
 //
 
-From=info@shika-kanren.com
+From=shika-kanren@hermosawaveinternet.com
 
 //---------------------------------------------------------------
 // Email Subject
