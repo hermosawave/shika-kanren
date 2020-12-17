@@ -1,0 +1,23 @@
+
+.sect_title {
+	margin-left:20px;
+	padding:5px;
+	background-color:white;
+	position:relative;
+	top:10px;
+	color:#000000;
+	font-weight: normal;
+}
+
+/* Rounded Corner Box */
+
+.sect_outer_box { margin-top:0px; margin-bottom:0px; }
+.sect_inner_box { padding:15px 15px 15px 15px; }
+.sect_top { background: url(../images/box_border/dot.gif) 0 0 repeat-x; }
+.sect_bottom { background: url(../images/box_border/dot.gif) 0 100% repeat-x; }
+.sect_left { background: url(../images/box_border/dot.gif) 0 0 repeat-y; }
+.sect_right { background: url(../images/box_border/dot.gif) 100% 0 repeat-y; }
+.sect_top_left { background: url(../images/box_border/tl.gif) 0 0 no-repeat; }
+.sect_top_right { background: url(../images/box_border/tr.gif) 100% 0 no-repeat; }
+.sect_bottom_left { background: url(../images/box_border/bl.gif) 0 100% no-repeat; }
+.sect_bottom_right { background: url(../images/box_border/br.gif) 100% 100% no-repeat; }

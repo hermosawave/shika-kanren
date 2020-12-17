@@ -1,0 +1,75 @@
+
+/*
+-----------------------------
+ List
+-----------------------------
+*/
+
+table.data_table {
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:6px;
+	margin-bottom:10px;
+	border: 1px solid #808080;
+}
+
+.data_table tr td {
+	padding:3px;
+	text-align:center;
+	vertical-align:top;
+	border: 1px solid #808080;
+}
+
+tr.data_table_caption {
+	background-color: #c0c0c0;
+}
+
+table.layout_table {
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:6px;
+	margin-bottom:10px;
+}
+
+input.record
+{
+	cursor:pointer;
+	border:1px;
+	background-color:transparent;
+	color: #0000a0;
+	font-size: 80%;
+	font-weight: bold;
+	text-decoration:underline;
+}
+
+.data_button
+{
+	cursor:pointer;
+	color: #404040;
+	border:1px solid #CFCEFF;
+	background-color:transparent;
+}
+
+/*
+-----------------------------
+ Reg/Edit
+-----------------------------
+*/
+
+td.column_caption {
+	width: 200px;
+	font-size: 100%;
+	text-align: right;
+	padding: 5px 5px;
+}
+
+td.column_value {
+	font-size: 100%;
+	text-align: left;
+	padding: 5px 5px;
+}
+
+.required {
+	color: #FF0000;
+}
+

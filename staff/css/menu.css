@@ -1,0 +1,6 @@
+
+a.menu_item:link { color: #3f85c3; text-decoration: none; }
+a.menu_item:visited { color: #3f85c3; text-decoration: none;  }
+a.menu_item:active { color: #ffffff; }
+a.menu_item:hover { color: #0f4573;  text-decoration: underline; }
+
