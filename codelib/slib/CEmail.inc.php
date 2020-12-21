@@ -64,11 +64,11 @@ class CSMTP
 			$this->transport = '';
         
         // added smtpauth //
-        $this->SMTPAuth = true;
+        
 
 		//--- open connection
 		$this->handle = @fsockopen( $this->transport . $this->hostname,
-			$this->port, $errno, $errstr, CSMTP_TIMEOUT );
+			$this->port, $errno, $errstr, SMTPAuth = true, CSMTP_TIMEOUT );
 
 		if ( $this->handle === false )
 		{
