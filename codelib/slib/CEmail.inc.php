@@ -62,13 +62,12 @@ class CSMTP
 			$this->transport = $params['Transport'] . '://';
 		else
 			$this->transport = '';
-        
-        // added smtpauth //
+    
         
 
 		//--- open connection
 		$this->handle = @fsockopen( $this->transport . $this->hostname,
-			$this->port, $errno, $errstr, SMTPAuth = true, CSMTP_TIMEOUT );
+			$this->port, $errno, $errstr, CSMTP_TIMEOUT );
 
 		if ( $this->handle === false )
 		{
