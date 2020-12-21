@@ -638,8 +638,7 @@ class CEmail
 		case 2://--- [ TCP/IP Socket ]
 			$this->params['data'] = $this->CreateEmailData( $this->params );
 			$this->smtp = new CSmtp();
-            $this->smtp-> "SMTPAuth= true"; // how about this?
-			$this->smtp->Run( $this->params );
+            $this->smtp->Run( $this->params );
 			$this->err_msg = $this->smtp->GetErrMsg();
 			break;
 		}
