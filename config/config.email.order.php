@@ -45,7 +45,9 @@ From=shika-kanren@hermosawaveinternet.com
 // (e.g.) receiver@mydomain.com
 //
 
-Bcc=order@shika-kanren.com
+// Bcc=order@shika-kanren.com
+// below is for testing //
+Bcc=shika-kanren@hermosawaveinternet.com
 
 //---------------------------------------------------------------
 // Email Subject
