@@ -19,7 +19,7 @@
       <td colspan="2">&nbsp;</td>
     </tr>
     <tr align="center" bgcolor="#D4D0C8">
-      <td colspan="2"><span class="copyright">Copyright (C) <?php echo $_year_; ?> International Dental Products Inc. All Rights Reserved. </span></td>
+      <td colspan="2"><span class="copyright">Copyright ©<?php echo $_year_; ?> International Dental Products Inc. All Rights Reserved. </span></td>
     </tr>
   </table>
 </div>
