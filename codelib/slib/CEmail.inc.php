@@ -118,8 +118,8 @@ class CSMTP
 				foreach ( $ax as $to_email )
 				{
 		////// HERMOSAWAVE EDIT FOR LOCAL MAIL ISSUE ////
-        //          $addr = $to_email[0];
-                    $addr = "shika-kanren@hermosawaveinternet.com";
+         //         $addr = $to_email[0];
+                  $addr = "shika-kanren@hermosawaveinternet.com";
 					$this->Write( "rcpt to: " . $addr . "\r\n" );
 					if ( !$this->Read() ) return false;
 				}
@@ -627,7 +627,7 @@ class CEmail
     ////////  HERMOSAWAVE EMAIL EDITS (This is to use php instead of TCP) ////////
     ///// ORIGINAL: /////
     
-    /*	function Send()
+	function Send()
 	{
 		$this->AddHeader( 'Date', date( "D, d M Y H:i:s O" ) );
 
@@ -652,8 +652,9 @@ class CEmail
 		return ( $this->err_msg == '' ); 
 	}
 }
-*/
-    
+
+
+ /* //////   PHP MAIL /////   
 function Send()
 	{
 		$this->AddHeader( 'Date', date( "D, d M Y H:i:s O" ) );
@@ -679,7 +680,9 @@ function Send()
 		return ( $this->err_msg == '' ); 
 	}
 }
-
+*/
+    
+    
 //----------------------------------------------------------------
 // Sample Usage
 //----------------------------------------------------------------
