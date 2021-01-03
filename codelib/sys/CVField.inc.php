@@ -138,7 +138,7 @@ class CVField extends CObject
 	//----------------------------------
     
 ///// Dec 2020: I replaced "= new" with "= new" for php 5 compatibility per:
-///// https://stackoverflow.com/questions/4673472/php-5-3-and-assigning-the-return-value-of-new-by-reference 
+///// http://stackoverflow.com/questions/4673472/php-5-3-and-assigning-the-return-value-of-new-by-reference 
 /////
     
     

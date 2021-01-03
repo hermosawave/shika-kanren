@@ -119,7 +119,7 @@ class CUtil
 
 		$_bp2_ = str_replace( "/shika-kanren.com/httpdocs/", "/", $_bp_ );
 		$_http_ = "http://www.shika-kanren.com" . $_bp2_;
-		$_https_ = "https://web15.primehs.net/shika-kanren.com/httpdocs" . $_bp2_;
+		$_https_ = "http://web15.primehs.net/shika-kanren.com/httpdocs" . $_bp2_;
 
 		if ( $b_https )
 		{

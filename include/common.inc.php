@@ -5,7 +5,7 @@
 	$_bp_ = $dirname . $_REL_PATH_;
 	$_host_ =  $_SERVER["HTTP_HOST"];
 	$_http_ = "http://" . $_host_ . $_bp_;
-	$_https_ = "https://" . $_host_ . $_bp_;
+	$_https_ = "http://" . $_host_ . $_bp_;
 
 	//-- For local versions
 	$_http_ = str_replace( "/httpsdocs/", "/httpdocs/", $_http_ );

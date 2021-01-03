@@ -41,7 +41,7 @@
             <tr>
               <td><form action="" method="post" name="regist" id="regist">
                 <table width="539" border="0" cellpadding="2" cellspacing="1" bgcolor="#000000" class="test">
-                  <input type="hidden" name="redirect" value=https://www.haishausa.com/member_1.htm>
+                  <input type="hidden" name="redirect" value=http://www.haishausa.com/member_1.htm>
                   <input type="hidden" name="recipient" value="info@haishausa.com">
                   <input type="hidden" name="subject" value="HAISHA USA member form">
                   <tr bgcolor="#FFFFFF">

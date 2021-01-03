@@ -120,7 +120,7 @@ class CUtil
 
 		if ( $b_https )
 		{
-			$url = "https://" . $_host_ . $_bp_;
+			$url = "http://" . $_host_ . $_bp_;
 			//-- For local versions
 			//$url = str_replace( "/httpdocs/", "/httpsdocs/", $url );
 		}
