@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
 <head>
 
@@ -66,7 +65,7 @@ body {
 
       <td width="539" align="right" valign="bottom" background="pic/top_logoBG.jpg" bgcolor="#FFFFFF">
 
-      <span class="body1_blk">      &nbsp;&nbsp;<a href='https://www.shika-kanren.com/member/index.php'>Login</a>      </span>
+      <span class="body1_blk">      &nbsp;&nbsp;<a href='http://www.shika-kanren.com/member/index.php'>Login</a>      </span>
 
       </td>
 
@@ -202,9 +201,9 @@ style="FONT-SIZE: 12px; WIDTH: 102px; BACKGROUND-COLOR: #b1bdc9; TEXT-ALIGN: cen
 
                     <td align="center" bgcolor="#99CCFF"><span class="style6">
 
-                      <a href="https://www.shika-kanren.com/product/../register/index.php">
+                      <a href="http://www.shika-kanren.com/product/../register/index.php">
 
-                      <a href="https://www.shika-kanren.com/product/../register/index.php"><img src="pic/leftmenu/2toroku.gif" alt="V‹K‰ïˆõ“o˜^" width="140" height="25" border="0"></a></span></td>
+                      <a href="http://www.shika-kanren.com/product/../register/index.php"><img src="pic/leftmenu/2toroku.gif" alt="V‹K‰ïˆõ“o˜^" width="140" height="25" border="0"></a></span></td>
 
                   </tr>
 
