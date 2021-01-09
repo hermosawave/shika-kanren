@@ -34,7 +34,7 @@ XA_CLASS=>'cls_fl_category',
 XA_SPEC_FILE=>'df.fl.category.inc.php',
 XA_TABLE_NAME=>TBL_CATEGORY,
 XA_ID_NAME=>'category_id',
-XA_INIT_ORDER_BY=>'view_order ASC',
+XA_INIT_ORDER_BY=>'view_order DESC',
 XA_INIT_PAGE_SIZE=>20
 ),
 
