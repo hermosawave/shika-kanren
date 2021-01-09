@@ -16,7 +16,7 @@ XA_CLASS=>'cls_fl_member',
 XA_SPEC_FILE=>'df.fl.member.inc.php',
 XA_TABLE_NAME=>TBL_MEMBER,
 XA_ID_NAME=>'member_id',
-XA_INIT_ORDER_BY=>'member_id ASC',
+XA_INIT_ORDER_BY=>'member_id DESC',
 XA_INIT_PAGE_SIZE=>50
 ),
 
@@ -43,7 +43,7 @@ XA_CLASS=>'cls_fl_product',
 XA_SPEC_FILE=>'df.fl.product.inc.php',
 XA_TABLE_NAME=>TBL_PRODUCT,
 XA_ID_NAME=>'product_id',
-XA_INIT_ORDER_BY=>'product_id ASC',
+XA_INIT_ORDER_BY=>'product_id DESC',
 XA_INIT_PAGE_SIZE=>50
 ),
 
@@ -61,7 +61,7 @@ XA_CLASS=>'cls_fl_items',
 XA_SPEC_FILE=>'df.fl.items.inc.php',
 XA_TABLE_NAME=>TBL_ITEMS,
 XA_ID_NAME=>'items_id',
-XA_INIT_ORDER_BY=>'items_id ASC',
+XA_INIT_ORDER_BY=>'items_id DESC',
 XA_INIT_PAGE_SIZE=>20
 ),
 
